@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.69.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 71e119aeade244981fd0f9e5e310eb3dbd9d2bbc MANIFEST
+SHA1 294f4d2e7820efef7f28d0aa4ed052d391d74b4f META.yml
+SHA1 db5b15f1e3eade3c906b2909c6ac3d8d9bbf5df6 Makefile.PL
+SHA1 c23391dbd70ac6b561bfe7c0911a65b5add1cdaf README
+SHA1 4f2803f3e2e26a4a577837c34895e1cf72d06a9e html/Callbacks/LinkedTicketsHistory/Elements/ShowHistory/SkipTransaction
+SHA1 0ca5789c90757f1ba2cfe9101500d133015cceea html/Callbacks/LinkedTicketsHistory/Ticket/Display.html/AfterShowHistory
+SHA1 2ae20c82f795a9707442bb0fe6ab987cc06cbbc8 html/Ticket/Elements/LinkedTicketsHistory
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 8cd2f3ae562559755e5caac81514a1ae50847284 lib/RT/Extension/LinkedTicketsHistory.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlJ4HnAACgkQMflWJZZAbqDcTgCfewCJODbZt783b18zcr3zoQml
+M5YAmwQefftpxYFvxElp/fMjHkB62XMF
+=P0Jy
+-----END PGP SIGNATURE-----
